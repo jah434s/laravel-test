@@ -5,6 +5,4 @@
     	<p><b>{{ $user->name }}:</b> {{ $user->email }}</p>
     @endforeach
 
-    @lang('pagination.next')
-
 @stop
